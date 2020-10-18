@@ -34,6 +34,7 @@ interface OrphanageParams {
 export default function Orphanage() {
   const params = useParams<OrphanageParams>();
   const [orphanage, setOrphanage] = useState<OrphanagesType>()
+  const [activeIndexImage, setActiveIndexImage] = useState(0);
 
   useEffect(() => {
     api.get(`/orphanages/${params.id}`)
@@ -46,6 +47,10 @@ export default function Orphanage() {
     return <p>Carregando...</p>
   }
 
+  function handleClickImage (index: number) {
+    setActiveIndexImage(index);
+  }
+
   return (
     <div id="page-orphanage">
       
@@ -53,12 +58,16 @@ export default function Orphanage() {
 
       <main>
         <div className="orphanage-details">
-          <img src={orphanage.images[0].url} alt={orphanage.name}/>
-          {/* <img src="https://www.gcd.com.br/wp-content/uploads/2020/08/safe_image.jpg" alt="Lar das meninas" /> */}
+          <img src={orphanage.images[activeIndexImage].url} alt={orphanage.name}/>
 
           <div className="images">
-            {orphanage.images.map(image => (
-              <button key={image.id} className="active" type="button">
+            {orphanage.images.map((image, index) => (
+              <button 
+                key={image.id}
+                className={activeIndexImage === index ? 'active': ''}
+                type="button"
+                onClick={() => handleClickImage(index)}
+              >
                 <img src={image.url} alt={orphanage.name} />
               </button>
             ))}
