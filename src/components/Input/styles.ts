@@ -1,6 +1,10 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-export const Container = styled.input`
+interface ContainerProps {
+  isFocus: boolean;
+}
+
+export const Container = styled.input<ContainerProps>`
   width: 360px;
   height: 64px;
   
@@ -17,6 +21,9 @@ export const Container = styled.input`
   font-size: 16px;
   line-height: 22px;
 
+  ${(props) => props.isFocus && css`
+    border: 1px solid #A1E9C5;
+  `}
 `;
 
 export const LabelInput = styled.label`
