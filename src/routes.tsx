@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import CreateOrphanage from './pages/CreateOrphanage';
+import ForgotPassword from './pages/ForgotPassword';
 import Lading from './pages/Landing';
 import Login from './pages/Login';
 import Orphanage from './pages/Orphanage';
@@ -17,6 +18,7 @@ const Routes: React.FC = () => {
         <Route path="/organages/:id" component={Orphanage} />
         
         <Route path="/login" component={Login} />
+        <Route path="/forgot" component={ForgotPassword} />
       </Switch>
     </BrowserRouter>
   )
