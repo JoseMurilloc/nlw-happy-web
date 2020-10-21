@@ -6,6 +6,7 @@ import Lading from './pages/Landing';
 import Login from './pages/Login';
 import Orphanage from './pages/Orphanage';
 import OrphanagesMap from './pages/OrphanagesMap';
+import ResetPassword from './pages/ResetPassword';
 
 const Routes: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const Routes: React.FC = () => {
         
         <Route path="/login" component={Login} />
         <Route path="/forgot" component={ForgotPassword} />
+        <Route path="/reset" component={ResetPassword} />
       </Switch>
     </BrowserRouter>
   )
