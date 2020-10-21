@@ -78,21 +78,6 @@ export const Form = styled.form`
     text-decoration: none;
   }
 
-  button {
-    width: 360px;
-    height: 64px;
-
-    background: #37C77F;
-    border-radius: 20px;
-    border: none;
-
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 22px;
-    cursor: pointer;
-  }
-
 `;
 
 export const InputCheck = styled.div`

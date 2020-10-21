@@ -3,6 +3,7 @@ import { FiArrowLeft } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 import Background from '../../components/Background';
+import Button from '../../components/Button';
 import Input from '../../components/Input';
 
 
@@ -34,9 +35,9 @@ const Login: React.FC = () => {
               <a href="/forgort">Esqueci minha senha</a>
             </div>
 
-            <button type="submit">
+            <Button>
               Entrar
-            </button>
+            </Button>
           </Form>
         </Content>
       </Container>
