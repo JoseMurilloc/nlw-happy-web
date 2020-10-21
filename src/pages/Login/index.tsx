@@ -1,7 +1,9 @@
 import React from 'react';
 import { FiArrowLeft } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+
 import Background from '../../components/Background';
+import Input from '../../components/Input';
 
 
 import { Container, Content, Form, InputCheck } from './styles';
@@ -20,10 +22,10 @@ const Login: React.FC = () => {
             <h1>Fazer login</h1>
 
             <label htmlFor="email">Email</label>
-            <input autoComplete="off" type="text" name="email" />
+            <Input type="text" name="email" />
 
             <label htmlFor="passoword">Senha</label>
-            <input autoComplete="off" type="text" name="passoword" />
+            <Input type="password" name="passoword" />
 
             <div>
               <InputCheck>
