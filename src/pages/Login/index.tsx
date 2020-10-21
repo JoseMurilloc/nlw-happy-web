@@ -21,11 +21,9 @@ const Login: React.FC = () => {
           <Form>
             <h1>Fazer login</h1>
 
-            <label htmlFor="email">Email</label>
-            <Input type="text" name="email" />
+            <Input labelName="Email" type="text" name="email" />
 
-            <label htmlFor="passoword">Senha</label>
-            <Input type="password" name="passoword" />
+            <Input labelName="Senha" type="password" name="passoword" />
 
             <div>
               <InputCheck>

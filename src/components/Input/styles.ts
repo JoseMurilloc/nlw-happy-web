@@ -18,3 +18,12 @@ export const Container = styled.input`
   line-height: 22px;
 
 `;
+
+export const LabelInput = styled.label`
+  color: #8FA7B3;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+
+  margin-top: 16px;
+`;

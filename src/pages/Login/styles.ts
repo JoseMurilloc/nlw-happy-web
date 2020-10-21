@@ -48,7 +48,7 @@ export const Form = styled.form`
     line-height: 34px;
     margin-bottom: 24px;
   }
-
+/* 
   label {
     color: #8FA7B3;
     font-weight: 600;
@@ -56,7 +56,7 @@ export const Form = styled.form`
     line-height: 22px;
 
     margin-top: 16px;
-  }
+  } */
 
   > div {
     width: 100%;
