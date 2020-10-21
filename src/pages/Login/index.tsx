@@ -32,7 +32,7 @@ const Login: React.FC = () => {
                 <label htmlFor="lembreme">Lembre-me</label>
               </InputCheck>
 
-              <a href="/forgort">Esqueci minha senha</a>
+              <Link to="/forgot">Esqueci minha senha</Link>
             </div>
 
             <Button>
