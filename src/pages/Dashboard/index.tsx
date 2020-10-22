@@ -17,7 +17,7 @@ import { RiDeleteBin7Line } from 'react-icons/ri';
 
 const Dashboard: React.FC = () => {
 
-  const [orphanages, Orphanages] = useState(false);
+  const [orphanages, Orphanages] = useState(true);
 
   return (
     <Container>
@@ -53,7 +53,7 @@ const Dashboard: React.FC = () => {
                 <h1>Orf. Esperança</h1>
                   
                   <div>
-                    <Link to="/">
+                    <Link to="/delete">
                       <RiDeleteBin7Line color="#15C3D6" size={30}/>
                     </Link>
                     <Link to="/">
@@ -71,7 +71,7 @@ const Dashboard: React.FC = () => {
                 <h1>Orf. Esperança</h1>
                   
                   <div>
-                    <Link to="/">
+                    <Link to="/delete">
                       <RiDeleteBin7Line color="#15C3D6" size={30}/>
                     </Link>
                     <Link to="/">

@@ -8,6 +8,7 @@ import ForgotPassword from './pages/ForgotPassword';
 import Lading from './pages/Landing';
 import Login from './pages/Login';
 import Orphanage from './pages/Orphanage';
+import OrphanageRegisterOkay from './pages/OrphanageRegisterOkay';
 import OrphanagesMap from './pages/OrphanagesMap';
 import ResetPassword from './pages/ResetPassword';
 
@@ -27,6 +28,7 @@ const Routes: React.FC = () => {
 
         <Route path="/dashboard" component={Dashboard} />
         <Route path="/delete" component={DeleteOrpganage} />
+        <Route path="/created" component={OrphanageRegisterOkay} />
       </Switch>
     </BrowserRouter>
   )
