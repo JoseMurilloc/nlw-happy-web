@@ -3,6 +3,7 @@ import { Route, BrowserRouter, Switch } from 'react-router-dom';
 
 import CreateOrphanage from './pages/CreateOrphanage';
 import Dashboard from './pages/Dashboard';
+import DeleteOrpganage from './pages/DeleteOrpganage';
 import ForgotPassword from './pages/ForgotPassword';
 import Lading from './pages/Landing';
 import Login from './pages/Login';
@@ -25,6 +26,7 @@ const Routes: React.FC = () => {
         <Route path="/reset" component={ResetPassword} />
 
         <Route path="/dashboard" component={Dashboard} />
+        <Route path="/delete" component={DeleteOrpganage} />
       </Switch>
     </BrowserRouter>
   )
