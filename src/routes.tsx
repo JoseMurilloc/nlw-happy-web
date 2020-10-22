@@ -1,6 +1,8 @@
 import React from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
+
 import CreateOrphanage from './pages/CreateOrphanage';
+import Dashboard from './pages/Dashboard';
 import ForgotPassword from './pages/ForgotPassword';
 import Lading from './pages/Landing';
 import Login from './pages/Login';
@@ -21,6 +23,8 @@ const Routes: React.FC = () => {
         <Route path="/login" component={Login} />
         <Route path="/forgot" component={ForgotPassword} />
         <Route path="/reset" component={ResetPassword} />
+
+        <Route path="/dashboard" component={Dashboard} />
       </Switch>
     </BrowserRouter>
   )
