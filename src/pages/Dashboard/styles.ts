@@ -104,14 +104,21 @@ export const ContainerOrphanage = styled.div`
     align-items: center;
 
     padding: 0 32px;
+    > div {
 
-    a {
-      background: #EBF2F5;
-      border-radius: 16px;
-      width: 48px;
-      height: 48px;
-      padding: 15px;
 
+      a + a {
+        margin-left: 8px;
+      }
+
+      a {
+        background: #EBF2F5;
+        border-radius: 16px;
+        width: 48px;
+        height: 48px;
+        padding: 15px;
+      }
     }
+
   }
 `;
