@@ -58,7 +58,11 @@ export default function Orphanage() {
 
       <main>
         <div className="orphanage-details">
-          <img src={orphanage.images[activeIndexImage].url} alt={orphanage.name}/>
+          {orphanage.images[activeIndexImage]?.url  !== undefined? (
+            <img src={orphanage.images[activeIndexImage]?.url} alt={orphanage.name}/>
+          ) : (
+            <img src="https://cdn.dribbble.com/users/992274/screenshots/7392790/media/95483df50a0a3324c4cf9ccb1094b825.jpg" alt="404"/>
+          )}
 
           <div className="images">
             {orphanage.images.map((image, index) => (
@@ -68,7 +72,7 @@ export default function Orphanage() {
                 type="button"
                 onClick={() => handleClickImage(index)}
               >
-                <img src={image.url} alt={orphanage.name} />
+                <img src={image?.url} alt={orphanage.name} />
               </button>
             ))}
           </div>
