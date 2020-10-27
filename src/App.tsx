@@ -1,6 +1,6 @@
 import React from 'react';
 import { AuthProvider } from './hooks/auth';
-import Routes from './routes';
+import Routes from './Routes';
 
 import './styles/global.css';
 
