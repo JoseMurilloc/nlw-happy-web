@@ -15,7 +15,7 @@ const ForgotPassword: React.FC = () => {
 
       <Content>
         <div>
-          <Link to="/">
+          <Link to="/login">
             <FiArrowLeft size={48} color="#15C3D6"/>
           </Link>
         </div>

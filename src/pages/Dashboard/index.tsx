@@ -56,7 +56,7 @@ const Dashboard: React.FC = () => {
                     <Link to="/delete">
                       <RiDeleteBin7Line color="#15C3D6" size={30}/>
                     </Link>
-                    <Link to="/">
+                    <Link to="/orphanages/create">
                       <FiEdit3 color="#15C3D6" size={30}/>
                     </Link>   
                   </div>   

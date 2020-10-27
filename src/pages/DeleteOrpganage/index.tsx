@@ -2,15 +2,19 @@ import React from 'react';
 
 import { Container } from './styles';
 import logoDeleta from '../../images/logo-delete.svg';
+import { useHistory } from 'react-router-dom';
 
 const DeleteOrpganage: React.FC = () => {
+
+  const history = useHistory();
+
   return (
     <Container>
       <header>
         <h1>Excluir</h1>
         <span>Você tem certeza que quer excluir Orf. Esperança?</span>
 
-        <button>
+        <button onClick={() => history.goBack()}>
           Voltar para o mapa
         </button> 
       </header>
