@@ -27,7 +27,49 @@ export const Content = styled.div`
 
     cursor: pointer;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 360px;
+    height: 430px;
+
+    margin-top: 100px;
+
+
+    h1 {
+      color: #5C8599;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 34px;
+      margin-bottom: 24px;
+    }
+    
+    > div {
+      width: 100%;
+      margin-bottom: 40px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      /* background-color: yellow; */
+      align-items: center;
+      margin-top: 24px;
+    }
+
+    div a {
+      color: #8FA7B3;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      text-decoration: none;
+    }
+
+  }
 `;
+
 
 export const Form = styled.form`
   

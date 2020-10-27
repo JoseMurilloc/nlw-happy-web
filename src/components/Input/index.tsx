@@ -1,4 +1,5 @@
-import React, { InputHTMLAttributes, useCallback, useState } from 'react';
+import React, { InputHTMLAttributes, useCallback, useEffect, useRef, useState } from 'react';
+import { useField } from '@unform/core';
 
 import { Container, LabelInput } from './styles';
 
@@ -10,6 +11,18 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
 
 const Input: React.FC<InputProps> = ({ name, type, labelName, ...rest}) => {
   const [ isFocus, setIsFocus ] = useState(false);
+
+  const inputRef = useRef<HTMLInputElement>(null);
+  const { fieldName, error, registerField, defaultValue } = useField(name);
+
+  useEffect(() => {
+    registerField({
+      name: fieldName,
+      ref: inputRef.current,
+      path: 'value'
+    })
+  }, [fieldName, registerField])
+
 
   const handleInputFocus = useCallback(() => {
     setIsFocus(true);
@@ -28,7 +41,9 @@ const Input: React.FC<InputProps> = ({ name, type, labelName, ...rest}) => {
         onBlur={handleInputBlur}
         type={type}
         autoComplete="off" 
-        name={name} 
+        name={name}
+        defaultValue={defaultValue}
+        ref={inputRef}
       />
     </>
   );

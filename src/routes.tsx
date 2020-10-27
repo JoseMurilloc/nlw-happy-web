@@ -26,9 +26,11 @@ const Routes: React.FC = () => {
         <Route path="/forgot" component={ForgotPassword} />
         <Route path="/reset" component={ResetPassword} />
 
-        <Route path="/dashboard" component={Dashboard} />
         <Route path="/delete" component={DeleteOrpganage} />
         <Route path="/created" component={OrphanageRegisterOkay} />
+
+
+        <Route path="/dashboard" component={Dashboard} />
       </Switch>
     </BrowserRouter>
   )
