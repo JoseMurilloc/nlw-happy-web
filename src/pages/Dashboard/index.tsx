@@ -13,11 +13,13 @@ import notFoundOrphanages from '../../images/not-found-orphanages.svg';
 
 import {  FiEdit3 } from 'react-icons/fi';
 import { RiDeleteBin7Line } from 'react-icons/ri';
+import { useAuth } from '../../hooks/auth';
 
 
 const Dashboard: React.FC = () => {
 
   const [orphanages, Orphanages] = useState(true);
+  const { sigOut } = useAuth();
 
   return (
     <Container>
@@ -33,7 +35,7 @@ const Dashboard: React.FC = () => {
           </Link>
         </div>
 
-        <button>
+        <button onClick={sigOut}>
           <img src={close} alt=""/>
         </button>
       </header>

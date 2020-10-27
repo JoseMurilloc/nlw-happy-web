@@ -35,6 +35,7 @@ export const Container = styled.div`
     button {
       background-color: transparent;
       border: 0;
+      cursor: pointer;
     }
   }
 `;
