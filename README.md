@@ -1,44 +1,95 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center" id="top"> 
+  <img src="./.github/logo.svg" alt="Web" />
 
-## Available Scripts
+  &#xa0;
 
-In the project directory, you can run:
+  <!-- <a href="https://web.netlify.app">Demo</a> -->
+</div>
 
-### `yarn start`
+<h1 align="center">Happy</h1>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/JoseMurilloc/nlw-happy-web?color=FFDF2B">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/JoseMurilloc/nlw-happy-web?color=FFDF2B">
 
-### `yarn test`
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JoseMurilloc/nlw-happy-web?color=FFDF2B">
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <img alt="License" src="https://img.shields.io/github/license/JoseMurilloc/nlw-happy-web?color=FFDF2B">
 
-### `yarn build`
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/web?color=56BEB8" /> -->
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/web?color=56BEB8" /> -->
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/web?color=56BEB8" /> -->
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Status -->
 
-### `yarn eject`
+<h4 align="center"> 
+	🚧  Web 🚀 Under construction...  🚧
+</h4> 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<hr>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🎯 About ##
+Happy is a project developed at the NLW Rocketseat Event in order to show how web development using REACT is coming to stay, using good Front End development practices
 
-## Learn More
+## ✨ Funcionalidades ##
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✅ Feature 1;\
+✅ Feature 2;\
+✅ Feature 3;
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Technologies ##
+
+The following tools were used in this project:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled-Component]('https://styled-components.com/')
+## ✔️ Requerimentos ##
+
+Before initiating ✔️, you need to have [Git] (https://git-scm.com) and [Node] (https://nodejs.org/en/) installed.
+
+## ✅ Iniciando ##
+
+```bash
+# Clone this project
+$ git clone https://github.com/JoseMurilloc/web
+
+# Access
+$ cd web
+
+# Install dependencies
+$ yarn
+
+# Run the project
+$ yarn start
+
+# The server will initialize in the <http://localhost:3000>
+```
+
+## 📝 License ##
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+
+Made with 💖 by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">José Murillo</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
