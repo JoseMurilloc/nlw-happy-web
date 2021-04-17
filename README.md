@@ -47,7 +47,7 @@
 ## 🎯 About ##
 Happy is a project developed at the NLW Rocketseat Event in order to show how web development using REACT is coming to stay, using good Front End development practices
 
-## ✨ Funcionalidades ##
+## ✨ Features ##
 
 ✅ Feature 1;\
 ✅ Feature 2;\
@@ -61,11 +61,11 @@ The following tools were used in this project:
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled-Component]('https://styled-components.com/')
-## ✔️ Requerimentos ##
+## ✔️ Requirements ##
 
 Before initiating ✔️, you need to have [Git] (https://git-scm.com) and [Node] (https://nodejs.org/en/) installed.
 
-## ✅ Iniciando ##
+## ✅ Started ##
 
 ```bash
 # Clone this project
