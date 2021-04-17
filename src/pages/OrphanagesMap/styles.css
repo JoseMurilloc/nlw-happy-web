@@ -7,9 +7,9 @@
 }
 
 #page-map aside {
-  width: 440px;
+  width: 44rem;
   background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
-  padding: 80px;
+  padding: 8rem;
 
   display: flex;
   flex-direction: column;
@@ -17,21 +17,21 @@
 }
 
 #page-map aside h2 {
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 800;
-  line-height: 42px;
-  margin-top: 64px;
+  line-height: 4.2rem;
+  margin-top: 6.4rem;
 }
 
 #page-map aside p {
-  line-height: 28px;
-  margin-top: 24px;
+  line-height: 2.8rem;
+  margin-top: 2.4rem;
 }
 
 #page-map aside footer {
   display: flex;
   flex-direction: column;
-  line-height: 24px;
+  line-height: 2.4rem;
 }
 
 #page-map aside footer strong {
@@ -44,15 +44,15 @@
 
 #page-map .create-orphanage {
   position: absolute;
-  right: 40px;
-  bottom: 40px;
+  right: 4rem;
+  bottom: 4rem;
 
-  width: 64px;
-  height: 64px;
+  width: 6.4rem;
+  height: 6.4rem;
   background: #15c3d6;
   z-index: 10;
 
-  border-radius: 20px;
+  border-radius: 2rem;
 
   display: flex;
   justify-content: center;
@@ -67,16 +67,16 @@
 
 #page-map .map-popup .leaflet-popup-wrapper {
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 20px;
+  border-radius: 2rem;
   box-shadow: none;
 
 }
 
 #page-map .map-popup .leaflet-popup-content {
   color: #0069a5;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
-  margin: 8px 12px;
+  margin: 0.8rem 1.2rem;
   
   display: flex;
   justify-content: space-between;
@@ -84,11 +84,11 @@
 }
 
 #page-map .map-popup .leaflet-popup-content a {
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   background: #15c3d6;
   box-shadow: 17.2868px 27.6589px 41.4884px rgba(23, 142, 166, 0.16);
-  border-radius: 12px;
+  border-radius: 1.2rem;
 
   display: flex;
   justify-content: center;
